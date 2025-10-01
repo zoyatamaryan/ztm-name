@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Рекомендации фильмов по жанрам</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f7f9fc;
+      color:#0f172a;
+      padding:20px;
+      line-height:1.5;
+    }
+    h1{ font-size:2rem; margin-bottom:10px; }
+    nav a{ margin-right:12px; font-weight:600; color:#115e9b; text-decoration:none; }
+    .genre{ padding:12px; margin-bottom:16px; border-radius:6px; }
+    .genre h2{ margin:0 0 8px 0; }
+    .genre--drama{ color:#7b1e7a; }
+    .genre--drama h2{ font-size:1.8rem; }
+    .genre--thriller{ color:#b91c1c; }
+    .genre--thriller h2{ font-size:1.6rem; }
+    .genre--sci{ color:#0b7285; }
+    .genre--sci h2{ font-size:1.4rem; }
+    .genre--comedy{ color:#9a6b0b; }
+    .genre--comedy h2{ font-size:1.2rem; }
+    .genre--documentary{ color:#14532d; }
+    .genre--documentary h2{ font-size:1rem; }
+    ul{ margin:6px 0; padding-left:20px; }
+    footer{ margin-top:20px; font-size:0.9rem; color:#555; text-align:center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Подборка фильмов по жанрам</h1>
+    <nav>
+      <a href="#drama">Драма</a>
+      <a href="#thriller">Триллер</a>
+      <a href="#sci">Научная фантастика</a>
+      <a href="#comedy">Комедия</a>
+      <a href="#docu">Документальное</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="drama" class="genre genre--drama">
+      <h2>Драма</h2>
+      <ul>
+        <li><strong>Зелёная миля</strong> (1999) — история о тюремном охраннике и необычном заключённом с даром исцеления.</li>
+        <li><strong>Прислуга</strong> (2011) — драма о расовых предрассудках и смелости женщин на юге США.</li>
+        <li><strong>Однажды в... Голливуде</strong> (2019) — история актёра и каскадёра на закате золотой эпохи Голливуда.</li>
+        <li><strong>Форрест Гамп</strong> (1994) — необычная жизнь простого человека, ставшего свидетелем великих событий.</li>
+        <li><strong>Жизнь прекрасна</strong> (1997) — история отца, который превращает ужасы войны в игру для сына.</li>
+      </ul>
+    </section>
+
+    <section id="thriller" class="genre genre--thriller">
+      <h2>Триллер</h2>
+      <ul>
+        <li><strong>Бойцовский клуб</strong> (1999) — психологический триллер о двойной жизни и внутреннем бунте.</li>
+        <li><strong>Девушка с татуировкой дракона</strong> (2011) — расследование мрачной семейной тайны.</li>
+        <li><strong>Исчезнувшая</strong> (2014) — история о таинственном исчезновении жены и медийной шумихе.</li>
+        <li><strong>Семь</strong> (1995) — два детектива расследуют серию убийств, связанных с семью смертными грехами.</li>
+        <li><strong>Остров проклятых</strong> (2010) — детектив на отдалённом острове с психиатрической клиникой.</li>
+      </ul>
+    </section>
+
+    <section id="sci" class="genre genre--sci">
+      <h2>Научная фантастика</h2>
+      <ul>
+        <li><strong>Интерстеллар</strong> (2014) — экспедиция в космос для спасения человечества.</li>
+        <li><strong>Бегущий по лезвию 2049</strong> (2017) — философский фильм о грани между людьми и репликантами.</li>
+        <li><strong>Экзистенция</strong> (1999) — история о слиянии реальности и виртуального мира.</li>
+        <li><strong>Матрица</strong> (1999) — культовая история о мире-иллюзии и восстании против машин.</li>
+        <li><strong>Начало</strong> (2010) — проникновение в сны и манипуляция подсознанием.</li>
+      </ul>
+    </section>
+
+    <section id="comedy" class="genre genre--comedy">
+      <h2>Комедия</h2>
+      <ul>
+        <li><strong>Большой Лебовски</strong> (1998) — забавная история "Чувака", втянутого в криминальную авантюру.</li>
+        <li><strong>Суперперцы</strong> (2007) — весёлая история о дружбе и подростковых приключениях.</li>
+        <li><strong>Корпорация монстров</strong> (2001) — мультфильм о монстрах, работающих на фабрике страхов.</li>
+        <li><strong>Один дома</strong> (1990) — мальчик против грабителей с ловушками и юмором.</li>
+        <li><strong>Маска</strong> (1994) — история скромного банкира, превратившегося в супергероя-шутника.</li>
+      </ul>
+    </section>
+
+    <section id="docu" class="genre genre--documentary">
+      <h2>Документальное кино</h2>
+      <ul>
+        <li><strong>Человек на проволоке</strong> (2008) — о подвиге Филиппа Пети, прошедшего по канату между башнями-близнецами.</li>
+        <li><strong>Планета Земля II</strong> (2016) — впечатляющий сериал о красоте дикой природы.</li>
+        <li><strong>13-й</strong> (2016) — о проблеме расовой дискриминации и системе правосудия в США.</li>
+        <li><strong>В поисках Вивиан Майер</strong> (2013) — раскрытие тайны неизвестной уличной фотографки.</li>
+        <li><strong>Дом</strong> (2009) — фильм о взаимосвязи человека и планеты Земля.</li>
+      </ul>
+    </section>
+  </main>
+  </footer>
+</body>
+</html>
